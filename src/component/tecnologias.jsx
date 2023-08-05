@@ -13,6 +13,8 @@ import "./tecno.css"
 function Tecnologias(){
     return(
     <>
+      <h1>Habilidades:</h1>  
+      <h5>Me considero una persona autosuficiente que investiga y busca una solucion, trabaja en equipo y le gusta aprender para nutrirme cada vez mas asi poder ir evolucionando mediante incursiones, videos y capacitaciones los cuales constantemente estoy poniendo en practica. </h5>
            <h1>Utilizo tecnologias como:</h1> 
             <ul>
               <li>
@@ -59,8 +61,6 @@ function Tecnologias(){
           <img className="img" src={sql} alt="" width="30" height="30"/>
         </li>
       </ul>
-      <h1>Habilidades:</h1>  
-      <h5>Me considero una persona autosuficiente que investiga y busca una solucion, trabaja en equipo y le gusta aprender para nutrirme cada vez mas asi poder ir evolucionando mediante incursiones, videos y capacitaciones los cuales constantemente estoy poniendo en practica. </h5>
     </>
     )
 }
