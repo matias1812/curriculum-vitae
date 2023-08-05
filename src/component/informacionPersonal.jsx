@@ -6,6 +6,7 @@ import react from "../img/react.png";
 import certificado from "../img/certificado.png";
 import "./info.css";
 import Tecnologias from "./tecnologias";
+import Portafolio from "./portafolio";
 
 function Datos() {
   const [key, setKey] = useState("home");
@@ -16,7 +17,7 @@ function Datos() {
         <Navbar bg="dark" data-bs-theme="dark" >
           <Container>
             <Navbar.Brand>
-              <h1 class="logo">
+              <h1 className="logo">
                 <img src={react} alt="" width="50" height="50" className="react" />
                 Matias Ignacio Torres Torres
               </h1>
@@ -90,7 +91,9 @@ function Datos() {
               <Tab eventKey="tecnologiayhabilidades" title="Tecnologias y habilidades">
                 <Tecnologias />
               </Tab>
-              <Tab eventKey="portafolio" title="Portafolio"></Tab>
+              <Tab eventKey="portafolio" title="Portafolio">
+                <Portafolio />
+              </Tab>
               <Tab eventKey="certificado" title="Certificado">
                 <img src={certificado} width="900" height="640" />
               </Tab>
