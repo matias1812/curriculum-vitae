@@ -1,0 +1,26 @@
+.info{
+    margin: 2rem;
+}
+
+.btn{
+    width: 3rem;
+}
+
+.precentacion{
+    margin-top: 2rem;
+}
+
+.react{
+    margin-right: 1rem;
+    
+}
+
+.datos *{
+    margin-top: 0.5rem;
+}
+
+.footer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
