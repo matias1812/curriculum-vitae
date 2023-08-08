@@ -7,7 +7,7 @@ import certificado from "../img/certificado.png";
 import "./info.css";
 import Tecnologias from "./tecnologias";
 import Portafolio from "./portafolio";
-
+import QR from "../img/QR.png"
 function Datos() {
   const [key, setKey] = useState("home");
 
@@ -38,7 +38,7 @@ function Datos() {
               </Card.Header>
               <Card.Body>
                 <Card.Title>
-                  <h3>Frontend developer Independiente</h3>
+                  <h3>Frontend developer Freelance</h3>
                 </Card.Title>
                 <ul className="datos">
                   <li >RUT: 21.195.909-6</li>
@@ -56,8 +56,10 @@ function Datos() {
               </Card.Header>
               <Card.Body>
                 <ul>
-                  <li>Telefono: 9 4415 7085</li>
                   <li>Gmail: matias.torres1812@gmail.com</li>
+                  <li>Telefono: 9 4415 7085</li>
+                  <h6>QR de mi whatsapp personal:</h6>
+                  <img src={QR} alt="" style={{ width: "6.5rem" }}/>
                 </ul>
               </Card.Body>
               <Card.Footer className="icons">
@@ -75,6 +77,14 @@ function Datos() {
                 >
                   <i className="bi bi-linkedin"></i>
                 </Button>
+                <Button
+                  className="btn "
+                  variant="outlinr-light"
+                  href=" https://w.app/HXsgyb"
+                >
+                  <i class="bi bi-whatsapp"></i>
+                </Button>
+
               </Card.Footer>
             </Card>
 
@@ -88,7 +98,7 @@ function Datos() {
               justify
               variant="tabs"
             >
-              <Tab eventKey="tecnologiayhabilidades" title="Tecnologias y habilidades">
+              <Tab eventKey="tecnologiayhabilidades" title="Habilidades y tecgnologias">
                 <Tecnologias />
               </Tab>
               <Tab eventKey="portafolio" title="Portafolio">
@@ -103,7 +113,7 @@ function Datos() {
         </div>
           <hr className="solid" />
             <footer className="footer" >
-              <p>© 2021 Matias Torres. Todos los derechos reservados.</p>
+              <p>© 2023 Matias Torres. Todos los derechos reservados.</p>
             </footer>
       </div>
     </>

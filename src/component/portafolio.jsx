@@ -10,8 +10,8 @@ function Portafolio(){
             Bienvanido a mi Github
             <i className="bi bi-github img" ></i>
         </h1>
-        <p>La cual esta conformada por proyectos personales uno correspondiente para la entidad del Sename, otro para una postulacion a la CORFO
-            y por ultimo y no menos importante una de las pruebas de mi Bootcamp.
+        <p>El cual esta conformada por proyectos personales uno correspondiente para la entidad del Sename, otro para una postulacion a la CORFO (Corporación de Fomento de la Producción)
+            y por ultimo pero no menos importante una de las pruebas de mi Bootcamp.
         </p>
         <Card style={{ width: "55rem" }} className="text-center git">
         <Card.Header><h1>Frontend Sename</h1></Card.Header>
