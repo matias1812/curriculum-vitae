@@ -38,13 +38,13 @@ function Datos() {
               </Card.Header>
               <Card.Body>
                 <Card.Title>
-                  <h3>Frontend developer Freelance</h3>
+                  <h3>Frontend developer Independiente</h3>
+                  <h6>(2023 a la fecha)</h6>
                 </Card.Title>
                 <ul className="datos">
-                  <li >RUT: 21.195.909-6</li>
                   <li>Nacionalidad: Chilena</li>
                   <li>Recidencia: La Serena</li>
-                  <li>Nacido el: 18/12/2002</li>
+                  <li>Nacido el: 2002</li>
                   <li>Estudio: Full Stack Javascript</li>
                   <li>Bootcamp de: Desafio Latam</li>
                 </ul>
@@ -66,7 +66,7 @@ function Datos() {
                 <Button
                   className="btn "
                   variant="outlinr-light"
-                  href="https://github.com/matias1812"
+                  href="www.linkedin.com/in/matias-torres-developer-freelance"
                 >
                   <i className="bi bi-github" ></i>
                 </Button>

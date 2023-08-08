@@ -17,8 +17,8 @@ function Portafolio(){
         <Card.Header><h1>Frontend Sename</h1></Card.Header>
         <Card.Body>
             <Card.Text>
-                Este proyecto fue realizado para la entidad del Sename, el cual consistia en realizar un frontend para una pagina web con llogi, sing up, logout, validaciones, filtros por region, paguination y esaba conectada a una api creada por nosotros.
-                la funcionalidad de esta paqguina es conectar los niños del Sename con el mundo laboral.
+                Este proyecto fue realizado para la entidad del Sename, el cual consistia en realizar un frontend para una pagina web con login, sing up, logout, validaciones, filtros por region, pagination y esaba conectada a una api creada por nosotros.
+                la funcionalidad de esta pagina es conectar los niños del Sename con el mundo laboral.
             </Card.Text>
         </Card.Body>
         <Card.Footer className="">
@@ -33,7 +33,7 @@ function Portafolio(){
         <Card.Header><h1>Huella 0</h1></Card.Header>
         <Card.Body>
             <Card.Text>
-                Este proyecto fue realizado para postular al apoyo de la CORFO, el cual consistia en realizar un frontend con chat bot que pueda ayudar a orientar al publico que le interese obtener un biodigestor la cual tambien bose coneccion a fire base y prximamente webpay todavia en proceso de elaboracion
+                Este proyecto fue realizado para postular al apoyo de la CORFO, el cual consistia en realizar un frontend con chat bot que pueda ayudar a orientar al publico que le interese obtener un biodigestor la cual tambien posee coneccion a fire base y porximamente webpay todavia en proceso de elaboracion
             </Card.Text>
         </Card.Body>
         <Card.Footer className="">
