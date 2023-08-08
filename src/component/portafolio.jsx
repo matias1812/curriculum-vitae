@@ -59,6 +59,22 @@ function Portafolio(){
             </Button>
         </Card.Footer>
         </Card>
+        <Card style={{ width: "55rem" }} className="text-center git">
+        <Card.Header><h1>Next + Strapi</h1></Card.Header>
+        <Card.Body>
+            <Card.Text>
+                Este proyecto fue realizado para adquerir conocimientos sobre las 2 tecnologias anteriormente mencionadas y reforzar mis logicas de Javascript .
+            </Card.Text>
+        </Card.Body>
+        <Card.Footer className="">
+            <Button 
+                variant="outline-dark"
+                href="https://github.com/matias1812/Strapi">              
+                <i className="bi bi-github" ></i>
+            </Button>
+        </Card.Footer>
+        </Card>
+
     </div>
     </>
     )
