@@ -8,6 +8,10 @@ import "./info.css";
 import Tecnologias from "./tecnologias";
 import Portafolio from "./portafolio";
 import QR from "../img/QR.png"
+import certificado2 from "../img/certificado_2.jpeg"
+import certificado3 from "../img/certificado_3.jpeg"
+import certificado4 from "../img/certificado_4.jpeg"
+
 function Datos() {
   const [key, setKey] = useState("home");
 
@@ -43,7 +47,7 @@ function Datos() {
                 </Card.Title>
                 <ul className="datos">
                   <li>Nacionalidad: Chilena</li>
-                  <li>Recidencia: La Serena</li>
+                  <li>Residencia: La Serena</li>
                   <li>Nacido el: 2002</li>
                   <li>Estudio: Full Stack Javascript</li>
                   <li>Bootcamp de: Desafio Latam</li>
@@ -104,8 +108,11 @@ function Datos() {
               <Tab eventKey="portafolio" title="Portafolio">
                 <Portafolio />
               </Tab>
-              <Tab eventKey="certificado" title="Certificado">
-                <img src={certificado} width="900" height="640" />
+              <Tab className="img" eventKey="certificado" title="Certificado">
+                <img className="m-1" style={{ width: "27rem", height: "20rem" }} src={certificado} width="900" height="640" />
+                <img className="m-1" style={{ width: "27rem", height: "20rem" }} src={certificado2} width="900" height="640" />
+                <img className="m-1" style={{ width: "27rem", height: "20rem" }} src={certificado3} width="900" height="640" />
+                <img className="m-1" style={{ width: "27rem", height: "20rem" }} src={certificado4} width="900" height="640" />
               </Tab>
             </Tabs>
 

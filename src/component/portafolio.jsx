@@ -7,7 +7,7 @@ function Portafolio(){
     <>
     <div>
         <h1>
-            Bienvanido a mi Github
+            Bienvenido a mi Github
             <i className="bi bi-github img" ></i>
         </h1>
         <p>El cual esta conformada por proyectos personales uno correspondiente para la entidad del Sename, otro para una postulacion a la CORFO (Corporación de Fomento de la Producción)
@@ -55,6 +55,21 @@ function Portafolio(){
             <Button 
                 variant="outline-dark"
                 href="https://github.com/matias1812/prueba.js">              
+                <i className="bi bi-github" ></i>
+            </Button>
+        </Card.Footer>
+        </Card>
+        <Card style={{ width: "55rem" }} className="text-center git">
+        <Card.Header><h1>supabase + Next + Typescrit</h1></Card.Header>
+        <Card.Body>
+            <Card.Text>
+                este proyecto fue realizado para adquerir conocimientos sobre las 3 tecnologias anteriormente mencionadas y reforzar mis logicas de Typescript
+            </Card.Text>
+        </Card.Body>
+        <Card.Footer className="">
+            <Button 
+                variant="outline-dark"
+                href="https://github.com/matias1812/clon_twiter">              
                 <i className="bi bi-github" ></i>
             </Button>
         </Card.Footer>
